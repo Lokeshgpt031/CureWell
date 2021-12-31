@@ -2,16 +2,17 @@
   <h2 align="center">Add a new Doctor</h2>
 </div>
 <!--Add angular form logic here-->
-<form align="center" #addDoctorForm>
+<form align="center" #addDoctorForm="ngForm" (ngSubmit)='addDoctor(doctorName.value)'>
   <table align="center">
     <tr>
       <th align="justify"> <label>Doctor Name</label> </th>
       <th>
         <!--Add angular form logic here-->
-        <input type="text" id="add_doctorName" class="form-control cwinput" name="doctorName" >
+        <input type="text" id="add_doctorName" class="form-control cwinput" #doctorName="ngModel" name="doctorName" required ngModel>
 
          <div id="add_validate_doctorName" class="text-danger-validation">
             <!--Add validation logic here-->
+            <div *ngIf='doctorName.errors && doctorName.touched'><p>Name is required</p></div>
           </div>
       </th>
     </tr>

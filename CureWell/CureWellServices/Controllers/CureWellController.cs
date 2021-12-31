@@ -27,20 +27,20 @@ namespace CureWellServices.Controllers
                 var doctorsList = rep.GetAllDoctors();
                 if (doctorsList.Any())
                 {
-                    foreach  (var item in doctorsList)
+                    foreach (var item in doctorsList)
                     {
                         listOfDoctors.Add(new Models.Doctor()
                         {
-                            DoctorId=item.DoctorId,
-                            DoctorName=item.DoctorName
+                            DoctorId = item.DoctorId,
+                            DoctorName = item.DoctorName
                         }
                         );
                     }
-                } 
+                }
             }
             catch (Exception)
             {
-                listOfDoctors= null;
+                listOfDoctors = null;
             }
             return Json(listOfDoctors);
         }
@@ -89,12 +89,12 @@ namespace CureWellServices.Controllers
                     {
                         listOfSurgery.Add(new Models.Surgery()
                         {
-                            DoctorId=item.DoctorId,
-                            EndTime=item.EndTime,
-                            StartTime=item.StartTime,
-                            SurgeryCategory=item.SurgeryCategory,
-                            SurgeryDate=item.SurgeryDate,
-                            SurgeryId=item.SurgeryId
+                            DoctorId = item.DoctorId,
+                            EndTime = item.EndTime,
+                            StartTime = item.StartTime,
+                            SurgeryCategory = item.SurgeryCategory,
+                            SurgeryDate = item.SurgeryDate,
+                            SurgeryId = item.SurgeryId
                         }
                         );
                     }
@@ -118,9 +118,10 @@ namespace CureWellServices.Controllers
                 CureWellDataAccessLayer.Models.Doctor doctor = new CureWellDataAccessLayer.Models.Doctor();
                 doctor.DoctorName = dObj.DoctorName;
                 status = rep.AddDoctor(doctor);
+                
 
             }
-            catch(Exception)
+            catch (Exception)
             {
                 status = false;
             }
@@ -136,14 +137,12 @@ namespace CureWellServices.Controllers
             try
             {
                 CureWellDataAccessLayer.Models.Doctor newDoctor = new CureWellDataAccessLayer.Models.Doctor();
-                if (ModelState.IsValid)
-                {
-                    newDoctor.DoctorId = dObj.DoctorId;
-                    newDoctor.DoctorName = dObj.DoctorName;
-                    status = rep.UpdateDoctorDetails(newDoctor);
-                }
+                newDoctor.DoctorId = dObj.DoctorId;
+                newDoctor.DoctorName = dObj.DoctorName;
+                status = rep.UpdateDoctorDetails(newDoctor);
+
             }
-            catch(Exception)
+            catch (Exception)
             {
                 status = false;
             }

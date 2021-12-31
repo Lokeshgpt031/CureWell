@@ -11,18 +11,19 @@
         <th style="text-align:center" colspan="2">Action</th>
       </tr>
 
-      <tr id='getdoctor' style="background-color:white">
+      <tr id='getdoctor' style="background-color:white" *ngFor="let d of doctorList">
         <!--Add your logic here-->
+        <td>{{d.doctorId}}</td>
+        <td>{{d.doctorName}}</td>
 
-        <td> <button class="btn">Edit Doctor Details</button></td>
-        <td> <button class="btn">Delete Doctor Details</button></td>
+        <td> <button (click)="editDoctorDetails(d)" class="btn">Edit Doctor Details</button></td>
+        <td> <button class="btn" (click)='removeDoctor(d)'>Delete Doctor Details</button></td>
       </tr>
     </table>
 
   </div>
 </div>
 <div *ngIf="!(doctorList?.length > 0)">
-  <br/>
+  <br />
   <h3 class="jumbotron" style="text-align:center;">No Doctor Available</h3>
 </div>
-

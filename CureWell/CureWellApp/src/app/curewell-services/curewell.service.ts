@@ -56,9 +56,9 @@ export class CurewellService {
   addDoctor(doctorName: string): Observable<boolean> {
     //To do implement necessary logic
     let docObj: Doctor;
-    docObj = { doctorId: null, doctorName: doctorName };
+    docObj = { doctorId: 0, doctorName: doctorName };
     let tempVar = this.http
-      .post<Doctor>("http://localhost:50476/api/CureWell/AddDoctor", docObj)
+      .post<boolean>("http://localhost:50476/api/CureWell/AddDoctor", docObj)
       .pipe(catchError(this.errorHandler));
     return tempVar;
   }
@@ -68,9 +68,11 @@ export class CurewellService {
     //To do implement necessary logic
     let docObj: Doctor;
     docObj = { doctorId: doctorId, doctorName: doctorName };
+    console.log(docObj);
+    console.log(typeof doctorId);
 
     let tempVar = this.http
-      .put<Doctor>(
+      .put<boolean>(
         "http://localhost:50476/api/CureWell/UpdateDoctorDetails",
         docObj
       )
@@ -100,7 +102,7 @@ export class CurewellService {
     };
 
     let tempVar = this.http
-      .put<Surgery>("http://localhost:50476/api/CureWell/UpdateSurgery", surObj)
+      .put<boolean>("http://localhost:50476/api/CureWell/UpdateSurgery", surObj)
       .pipe(catchError(this.errorHandler));
     return tempVar;
   }
@@ -114,7 +116,7 @@ export class CurewellService {
       body: doctor,
     };
     let tempVar = this.http
-      .delete<Surgery>(
+      .delete<boolean>(
         "http://localhost:50476/api/CureWell/DeleteDoctor",
         httpOptions
       )

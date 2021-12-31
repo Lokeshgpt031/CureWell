@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CureWell",
+    "\\CureWell\\CureWellApp",
+    "\\CureWell\\CureWellApp\\src",
+    "\\CureWell\\CureWellApp\\src\\app",
+    "\\CureWell\\CureWellApp\\src\\app\\curewell-services",
+    "\\CureWell\\CureWellServices",
+    "\\CureWell\\CureWellServices\\Controllers"
+  ],
+  "SelectedNode": "\\CureWell\\CureWellApp\\src\\app\\curewell-services\\curewell.service.ts",
+  "PreviewInSolutionExplorer": false
+}
