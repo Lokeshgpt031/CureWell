@@ -1,0 +1,29 @@
+<div class="row title">
+  <h2 align="center">Add a new Doctor</h2>
+</div>
+<!--Add angular form logic here-->
+<form align="center" #addDoctorForm>
+  <table align="center">
+    <tr>
+      <th align="justify"> <label>Doctor Name</label> </th>
+      <th>
+        <!--Add angular form logic here-->
+        <input type="text" id="add_doctorName" class="form-control cwinput" name="doctorName" >
+
+         <div id="add_validate_doctorName" class="text-danger-validation">
+            <!--Add validation logic here-->
+          </div>
+      </th>
+    </tr>
+    <tr>
+      <th></th>
+      <th align="justify">
+        <button class="btn" type="submit" [disabled]="ToggleButton">Add Doctor</button>&nbsp;&nbsp;
+        <a routerLink="/class" routerLinkActive="active">Cancel</a>
+      </th>
+
+  </table>
+  <div *ngIf="showDiv" style="color:red;text-align:center;">
+    {{msg}}
+  </div>
+</form>

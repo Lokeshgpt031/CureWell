@@ -1,0 +1,13 @@
+C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\CureWellDataAccessLayer\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\CureWellDataAccessLayer\bin\Debug\netcoreapp3.1\CureWellDataAccessLayer.deps.json
+C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\CureWellDataAccessLayer\bin\Debug\netcoreapp3.1\CureWellDataAccessLayer.runtimeconfig.json
+C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\CureWellDataAccessLayer\bin\Debug\netcoreapp3.1\CureWellDataAccessLayer.runtimeconfig.dev.json
+C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\CureWellDataAccessLayer\bin\Debug\netcoreapp3.1\CureWellDataAccessLayer.dll
+C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\CureWellDataAccessLayer\bin\Debug\netcoreapp3.1\CureWellDataAccessLayer.pdb
+C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.csprojAssemblyReference.cache
+C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.AssemblyInfo.cs
+C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.dll
+C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.pdb
+C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.genruntimeconfig.cache
+C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.csproj.CoreCompileInputs.cache
