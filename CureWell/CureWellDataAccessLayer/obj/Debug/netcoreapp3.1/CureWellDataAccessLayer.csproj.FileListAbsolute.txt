@@ -11,3 +11,17 @@ C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\Cur
 C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.pdb
 C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.genruntimeconfig.cache
 C:\Users\priyanka.roy02\Downloads\OneDrive_1_10-23-2020\To_Trainees\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.csproj.CoreCompileInputs.cache
+F:\Infosys\FA3\Mock-Angular\CureWell\CureWellDataAccessLayer\bin\Debug\netcoreapp3.1\appsettings.json
+F:\Infosys\FA3\Mock-Angular\CureWell\CureWellDataAccessLayer\bin\Debug\netcoreapp3.1\CureWellDataAccessLayer.deps.json
+F:\Infosys\FA3\Mock-Angular\CureWell\CureWellDataAccessLayer\bin\Debug\netcoreapp3.1\CureWellDataAccessLayer.runtimeconfig.json
+F:\Infosys\FA3\Mock-Angular\CureWell\CureWellDataAccessLayer\bin\Debug\netcoreapp3.1\CureWellDataAccessLayer.runtimeconfig.dev.json
+F:\Infosys\FA3\Mock-Angular\CureWell\CureWellDataAccessLayer\bin\Debug\netcoreapp3.1\CureWellDataAccessLayer.dll
+F:\Infosys\FA3\Mock-Angular\CureWell\CureWellDataAccessLayer\bin\Debug\netcoreapp3.1\CureWellDataAccessLayer.pdb
+F:\Infosys\FA3\Mock-Angular\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.csproj.AssemblyReference.cache
+F:\Infosys\FA3\Mock-Angular\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\Infosys\FA3\Mock-Angular\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.AssemblyInfoInputs.cache
+F:\Infosys\FA3\Mock-Angular\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.AssemblyInfo.cs
+F:\Infosys\FA3\Mock-Angular\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.csproj.CoreCompileInputs.cache
+F:\Infosys\FA3\Mock-Angular\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.dll
+F:\Infosys\FA3\Mock-Angular\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.pdb
+F:\Infosys\FA3\Mock-Angular\CureWell\CureWellDataAccessLayer\obj\Debug\netcoreapp3.1\CureWellDataAccessLayer.genruntimeconfig.cache

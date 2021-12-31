@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rohini.n01\\Desktop\\A\\Finalized-OnlineTrainingAssessmentQP\\SES_2020\\FA3\\Mock\\To_Trainees\\CureWell\\CureWellServices\\CureWellServices.csproj": {}
+    "F:\\Infosys\\FA3\\Mock-Angular\\CureWell\\CureWellServices\\CureWellServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rohini.n01\\Desktop\\A\\Finalized-OnlineTrainingAssessmentQP\\SES_2020\\FA3\\Mock\\To_Trainees\\CureWell\\CureWellDataAccessLayer\\CureWellDataAccessLayer.csproj": {
+    "F:\\Infosys\\FA3\\Mock-Angular\\CureWell\\CureWellDataAccessLayer\\CureWellDataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rohini.n01\\Desktop\\A\\Finalized-OnlineTrainingAssessmentQP\\SES_2020\\FA3\\Mock\\To_Trainees\\CureWell\\CureWellDataAccessLayer\\CureWellDataAccessLayer.csproj",
+        "projectUniqueName": "F:\\Infosys\\FA3\\Mock-Angular\\CureWell\\CureWellDataAccessLayer\\CureWellDataAccessLayer.csproj",
         "projectName": "CureWellDataAccessLayer",
-        "projectPath": "C:\\Users\\rohini.n01\\Desktop\\A\\Finalized-OnlineTrainingAssessmentQP\\SES_2020\\FA3\\Mock\\To_Trainees\\CureWell\\CureWellDataAccessLayer\\CureWellDataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\rohini.n01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rohini.n01\\Desktop\\A\\Finalized-OnlineTrainingAssessmentQP\\SES_2020\\FA3\\Mock\\To_Trainees\\CureWell\\CureWellDataAccessLayer\\obj\\",
+        "projectPath": "F:\\Infosys\\FA3\\Mock-Angular\\CureWell\\CureWellDataAccessLayer\\CureWellDataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\lokes\\.nuget\\packages\\",
+        "outputPath": "F:\\Infosys\\FA3\\Mock-Angular\\CureWell\\CureWellDataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rohini.n01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lokes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://infynexus/nexus/repository/nuget.org-proxy/": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/lokeshgadde/d1a76139-0828-48c8-892a-d3b463a451b7/_packaging/DemoFeed/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -80,24 +77,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rohini.n01\\Desktop\\A\\Finalized-OnlineTrainingAssessmentQP\\SES_2020\\FA3\\Mock\\To_Trainees\\CureWell\\CureWellServices\\CureWellServices.csproj": {
+    "F:\\Infosys\\FA3\\Mock-Angular\\CureWell\\CureWellServices\\CureWellServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rohini.n01\\Desktop\\A\\Finalized-OnlineTrainingAssessmentQP\\SES_2020\\FA3\\Mock\\To_Trainees\\CureWell\\CureWellServices\\CureWellServices.csproj",
+        "projectUniqueName": "F:\\Infosys\\FA3\\Mock-Angular\\CureWell\\CureWellServices\\CureWellServices.csproj",
         "projectName": "CureWellServices",
-        "projectPath": "C:\\Users\\rohini.n01\\Desktop\\A\\Finalized-OnlineTrainingAssessmentQP\\SES_2020\\FA3\\Mock\\To_Trainees\\CureWell\\CureWellServices\\CureWellServices.csproj",
-        "packagesPath": "C:\\Users\\rohini.n01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rohini.n01\\Desktop\\A\\Finalized-OnlineTrainingAssessmentQP\\SES_2020\\FA3\\Mock\\To_Trainees\\CureWell\\CureWellServices\\obj\\",
+        "projectPath": "F:\\Infosys\\FA3\\Mock-Angular\\CureWell\\CureWellServices\\CureWellServices.csproj",
+        "packagesPath": "C:\\Users\\lokes\\.nuget\\packages\\",
+        "outputPath": "F:\\Infosys\\FA3\\Mock-Angular\\CureWell\\CureWellServices\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rohini.n01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lokes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,15 +99,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://infynexus/nexus/repository/nuget.org-proxy/": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/lokeshgadde/d1a76139-0828-48c8-892a-d3b463a451b7/_packaging/DemoFeed/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\rohini.n01\\Desktop\\A\\Finalized-OnlineTrainingAssessmentQP\\SES_2020\\FA3\\Mock\\To_Trainees\\CureWell\\CureWellDataAccessLayer\\CureWellDataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\rohini.n01\\Desktop\\A\\Finalized-OnlineTrainingAssessmentQP\\SES_2020\\FA3\\Mock\\To_Trainees\\CureWell\\CureWellDataAccessLayer\\CureWellDataAccessLayer.csproj"
+              "F:\\Infosys\\FA3\\Mock-Angular\\CureWell\\CureWellDataAccessLayer\\CureWellDataAccessLayer.csproj": {
+                "projectPath": "F:\\Infosys\\FA3\\Mock-Angular\\CureWell\\CureWellDataAccessLayer\\CureWellDataAccessLayer.csproj"
               }
             }
           }
@@ -161,7 +155,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
