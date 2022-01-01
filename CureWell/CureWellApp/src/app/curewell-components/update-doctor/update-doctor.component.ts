@@ -42,9 +42,11 @@ export class UpdateDoctorComponent implements OnInit {
         (error) => {
           this.errorMsg = error;
           alert("Some error occured");
+          this.router.navigate(['/viewDoctors']);
         },
         () => {
           console.log("Updated Doctor details successfully");
+          this.router.navigate(['/viewDoctors']);
         }
       );
   }

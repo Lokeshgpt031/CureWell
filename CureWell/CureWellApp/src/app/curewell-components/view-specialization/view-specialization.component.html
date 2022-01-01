@@ -11,9 +11,11 @@
         <th style="text-align:center" colspan="1">Action</th>
       </tr>
 
-      <tr id="get_specialization"* style="background-color:white">
+      <tr *ngFor="let d of specializationList" id="get_specialization" style="background-color:white" >
         <!--Add your logic here-->
-        
+          <td>{{d.specializationName}}</td>
+          <td>{{d.specializationCode}}</td>
+          <td><button class="btn">View Doctor</button></td>
       </tr>
     </table>
 
