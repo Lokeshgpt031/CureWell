@@ -19,7 +19,7 @@ export class ViewDoctorComponent implements OnInit {
   constructor(
     private _curewellService: CurewellService,
     private router: Router
-  ) {}
+  ) { }
 
   ngOnInit() {
     //To do implement necessary logic
@@ -31,6 +31,7 @@ export class ViewDoctorComponent implements OnInit {
     this._curewellService.getDoctors().subscribe(
       (success) => {
         this.doctorList = success;
+
         this.showMsgDiv = false;
       },
       (error) => {
@@ -55,9 +56,17 @@ export class ViewDoctorComponent implements OnInit {
   removeDoctor(doctor: Doctor) {
     //To do implement necessary logic
     this._curewellService.deleteDoctor(doctor).subscribe(
-      (success) => {this.ngOnInit(),alert('doctor name deleted')},
-      (error) => {console.log("Some error occured")},
-      () => {console.log("Method executed")}
+      (success) => {
+        if (success) {
+
+          alert('doctor name deleted'); this.ngOnInit();
+        }
+        else {
+          alert('Doctor name not deleted'); this.ngOnInit();
+        }
+      },
+      (error) => { console.log("Some error occured") },
+      () => { console.log("Method executed") }
     );
   }
 }
